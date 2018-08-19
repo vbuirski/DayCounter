@@ -7,7 +7,7 @@ import vbuirski.com.au.model.Day;
 import vbuirski.com.au.model.Month;
 import vbuirski.com.au.model.Year;
 
-public class Controller {
+public class Main {
 
   private Date startDate;
   private Date endDate;
@@ -114,7 +114,7 @@ public class Controller {
 
   public static void main(String[] args) {
 
-    Controller main = new Controller();
+    Main main = new Main();
 
     Console c = System.console();
     if (c == null) {
